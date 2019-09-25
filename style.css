@@ -1,0 +1,171 @@
+body {
+    font-size: 1.2rem !important;
+    line-height: 28px;
+    background-color: #19191b;
+    background-image: url(bg.jpg);
+}
+.grid {
+    height: 100vh;
+}
+img {
+    box-shadow: 0 0 8px 8px #19191b inset;
+}
+h1.ui,
+h2,
+h3 {
+    margin-bottom: 28px;
+    font-family: 'Roboto Slab', serif !important;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+a.link {
+    font-weight: bold;
+}
+.color-green a.link:not(.small),
+.color-green a.link.small:hover {
+    color: #419d78;
+}
+.color-green a.link:not(.small):before,
+.color-green a.link.small:hover:before {
+    background-color: #419d78;
+}
+a.link:not(.small).color-green,
+a.link.small.color-green:hover {
+    color: #419d78 !important;
+}
+a.link:not(.small).color-green:before,
+a.link.small.color-green:hover:before {
+    background-color: #419d78 !important;
+}
+.color-yellow a.link:not(.small),
+.color-yellow a.link.small:hover {
+    color: #e0a458;
+}
+.color-yellow a.link:not(.small):before,
+.color-yellow a.link.small:hover:before {
+    background-color: #e0a458;
+}
+a.link:not(.small).color-yellow,
+a.link.small.color-yellow:hover {
+    color: #e0a458 !important;
+}
+a.link:not(.small).color-yellow:before,
+a.link.small.color-yellow:hover:before {
+    background-color: #e0a458 !important;
+}
+.color-red a.link:not(.small),
+.color-red a.link.small:hover {
+    color: #d9594c;
+}
+.color-red a.link:not(.small):before,
+.color-red a.link.small:hover:before {
+    background-color: #d9594c;
+}
+a.link:not(.small).color-red,
+a.link.small.color-red:hover {
+    color: #d9594c !important;
+}
+a.link:not(.small).color-red:before,
+a.link.small.color-red:hover:before {
+    background-color: #d9594c !important;
+}
+.color-blue a.link:not(.small),
+.color-blue a.link.small:hover {
+    color: #53a2be;
+}
+.color-blue a.link:not(.small):before,
+.color-blue a.link.small:hover:before {
+    background-color: #53a2be;
+}
+a.link:not(.small).color-blue,
+a.link.small.color-blue:hover {
+    color: #53a2be !important;
+}
+a.link:not(.small).color-blue:before,
+a.link.small.color-blue:hover:before {
+    background-color: #53a2be !important;
+}
+.color-grayscale a.link:not(.small),
+.color-grayscale a.link.small:hover {
+    color: #666;
+}
+.color-grayscale a.link:not(.small):before,
+.color-grayscale a.link.small:hover:before {
+    background-color: #666;
+}
+a.link:not(.small).color-grayscale,
+a.link.small.color-grayscale:hover {
+    color: #666 !important;
+}
+a.link:not(.small).color-grayscale:before,
+a.link.small.color-grayscale:hover:before {
+    background-color: #666 !important;
+}
+a {
+    cursor: pointer;
+    color: inherit;
+    -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+a,
+a:hover {
+    outline: 1px dashed transparent;
+}
+a:not(:hover):focus {
+    outline: 1px dashed transparent;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+a.link:not(.small) {
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+}
+a.link:not(.small):before {
+    content: '';
+    z-index: -1;
+    display: block;
+    -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+a.link:not(.small):before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 21px;
+    height: 2px;
+}
+a.link:not(.small):hover:before {
+    width: 100%;
+}
+a.link.small {
+    color: #aaa;
+    display: inline-block;
+    position: relative;
+}
+a.link.small:before {
+    content: '';
+    z-index: -1;
+    display: block;
+    -webkit-transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+a.link.small:before {
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    right: 0;
+    height: 7px;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+a.link.small:hover:before {
+    bottom: -3.5px;
+    height: 2px;
+}
+.links a.link:not(.small):not(:last-child) {
+    margin-right: 35px;
+}
